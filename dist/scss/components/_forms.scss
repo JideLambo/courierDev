@@ -5,6 +5,13 @@
         font-weight: 500px;
         color: $text1; 
     }
+
+    .msg-prompt {
+        font-size: 1rem;
+        font-weight: normal;
+        color: $text1;
+        line-height: 1.3rem;
+    }
 }
 
 .form-group {

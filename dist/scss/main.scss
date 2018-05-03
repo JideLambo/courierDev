@@ -9,7 +9,14 @@ body {
     position: relative;
     height: 100%;
 }
-
+.app-wrapper {
+    // padding-right: 15px;
+    // padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 310px;
+    text-align: center;
+}
 // Variables
 // ---------
 @import 'variables/colors';
@@ -23,6 +30,7 @@ body {
 // Components
 // ------
 @import 'components/navigations';
+@import 'components/cards';
 @import 'components/forms';
 @import 'components/footers';
 
@@ -31,7 +39,3 @@ body {
 @import 'objects/buttons';
 // Other objects as necessary
 
-.app-wrapper {
-    padding: 30px;
-    text-align: center;
-}

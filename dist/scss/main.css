@@ -12,6 +12,13 @@ body {
   height: 100%;
 }
 
+.app-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 310px;
+  text-align: center;
+}
+
 @font-face {
   font-family: Brandon;
   src: url("../fonts/Brandon/Brandon_reg.otf") format("opentype");
@@ -155,10 +162,38 @@ button:focus {
   font-weight: 900;
 }
 
+.cards-wrapper .card {
+  background-color: #ffffff;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.cards-wrapper .requestCard {
+  padding: 10px;
+}
+
+.cardContent .listGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardContent .listGroup .cardContent-list {
+  text-align: left;
+}
+
 .forms-wrapper .signinPrompt {
   font-size: 1.2rem;
   font-weight: 500px;
   color: #323232;
+}
+
+.forms-wrapper .msg-prompt {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #323232;
+  line-height: 1.3rem;
 }
 
 .form-group {
@@ -207,10 +242,5 @@ button:focus {
   background-color: #DD4F05;
   color: #fff;
   width: 100%;
-}
-
-.app-wrapper {
-  padding: 30px;
-  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
