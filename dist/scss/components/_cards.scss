@@ -11,14 +11,39 @@
     }
 }
 .cardContent {
-
+    border-bottom: 1px solid #ECECEC;
     .listGroup {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
+        margin-bottom: 15px;
 
         .cardContent-list {
             text-align: left;
+            width: 50%;
+
+            .list-title {
+                font-size: 0.75rem;
+                color: #707070;
+                font-weight: 600;
+            }
+            .list-content {
+                font-size: 0.87rem;
+                font-weight: 600;
+                color: $text1;
+            }
         }
+    }
+}
+.accept-wrapper {
+    text-align: left;
+    margin-top: 10px;
+
+    .acceptRequest {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $primary-color;
+        font-size: 0.87rem;
+        font-weight: 700;
     }
 }

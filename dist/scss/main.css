@@ -15,7 +15,7 @@ body {
 .app-wrapper {
   margin-right: auto;
   margin-left: auto;
-  width: 310px;
+  width: 330px;
   text-align: center;
 }
 
@@ -173,14 +173,45 @@ button:focus {
   padding: 10px;
 }
 
+.cardContent {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .cardContent .listGroup {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .cardContent .listGroup .cardContent-list {
   text-align: left;
+  width: 50%;
+}
+
+.cardContent .listGroup .cardContent-list .list-title {
+  font-size: 0.75rem;
+  color: #707070;
+  font-weight: 600;
+}
+
+.cardContent .listGroup .cardContent-list .list-content {
+  font-size: 0.87rem;
+  font-weight: 600;
+  color: #323232;
+}
+
+.accept-wrapper {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.accept-wrapper .acceptRequest {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #DD4F05;
+  font-size: 0.87rem;
+  font-weight: 700;
 }
 
 .forms-wrapper .signinPrompt {
