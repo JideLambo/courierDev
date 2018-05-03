@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300i,400,400i,600,700');
+
+@font-face {
+    font-family: Brandon;
+    src: url("../fonts/Brandon/Brandon_reg.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon;
+    font-weight: 500;
+    src: url("../fonts/Brandon/Brandon_med.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Brandon;
+    font-weight: bold;
+    src: url("../fonts/Brandon/Brandon_bld.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AvenirNext;
+    font-weight: 500;
+    src: url("../fonts/AvenirNext/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AvenirNext;
+    font-style: italic;
+    src: url("../fonts/AvenirNext/AvenirNextLTPro-It.otf") format("opentype");
+}
+
+@font-face {
+    font-family: AvenirNext;
+    font-weight: bold;
+    src: url("../fonts/AvenirNext/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}

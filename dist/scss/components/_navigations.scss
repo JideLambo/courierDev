@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+.title-wrapper {
+    flex-grow: 2;
+
+    .title {
+        font-size: 1.37rem;
+        color: $text1;
+        font-weight: 900;
+    }
+    .sm-title {
+        font-size: 1rem;
+        color: $text1;
+        font-weight: 900;
+    }
+}

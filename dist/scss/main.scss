@@ -1,0 +1,37 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+    height: 100%;
+}
+
+// Variables
+// ---------
+@import 'variables/colors';
+@import 'variables/typography';
+@import 'variables/breakpoints';
+
+// Reset and base files
+// --------------------
+@import 'base/base';
+
+// Components
+// ------
+@import 'components/navigations';
+@import 'components/forms';
+@import 'components/footers';
+
+// Objects
+// -------
+@import 'objects/buttons';
+// Other objects as necessary
+
+.app-wrapper {
+    padding: 30px;
+    text-align: center;
+}
