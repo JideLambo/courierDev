@@ -2,7 +2,7 @@
 
     .signinPrompt {
         font-size: 1.2rem;
-        font-weight: 500px;
+        font-weight: 500;
         color: $text1; 
     }
 
@@ -28,5 +28,19 @@
         position: relative;
         background-color: $input-bg;
         font-size: 0.9rem;
+    }
+    .form-control {
+        border: 1px solid $border1;
+        height: 40px;
+        width: 100%;
+        padding-left: 10px;
+        background-color: #ffffff;
+        border-radius: 0;
+        position: relative;
+        background-color: $input-bg;
+        font-size: 0.9rem;
+    }
+    .input-code {
+        margin-top: 10px;
     }
 }
