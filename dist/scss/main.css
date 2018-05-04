@@ -245,6 +245,13 @@ button:focus {
   font-size: 0.9rem;
 }
 
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
 .btn {
   font-size: 1rem;
   font-weight: 600;
@@ -274,5 +281,23 @@ button:focus {
   background-color: #DD4F05;
   color: #fff;
   width: 100%;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-group .btn-footer {
+  width: 50%;
+}
+
+.btn-group .btn-footer.btn-primary {
+  border-radius: 0;
+}
+
+.btn-group .btn-footer.btn-accent {
+  border-radius: 0;
+  background-color: #F67633;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

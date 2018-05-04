@@ -22,3 +22,20 @@
     color: #fff;
     width: 100%;
 }
+
+.btn-group {
+    display: flex;
+
+    .btn-footer {
+        width: 50%;
+
+        &.btn-primary {
+            border-radius: 0;
+        }
+        &.btn-accent {
+            border-radius: 0;
+            background-color: $accent-color;
+            color: #ffffff;
+        }
+    }
+}
