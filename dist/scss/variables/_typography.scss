@@ -62,3 +62,14 @@
 .mb-40 {
     margin-bottom: 40px;
 }
+
+.thickText {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $text1;
+}
+.smText {
+    font-size: 0.87rem;
+    font-weight: normal;
+    color: $text1;
+}

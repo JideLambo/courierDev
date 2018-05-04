@@ -90,6 +90,18 @@ body {
   margin-bottom: 40px;
 }
 
+.thickText {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #323232;
+}
+
+.smText {
+  font-size: 0.87rem;
+  font-weight: normal;
+  color: #323232;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -289,6 +301,7 @@ footer {
 
 .btn-group .btn-footer {
   width: 50%;
+  box-shadow: none;
 }
 
 .btn-group .btn-footer.btn-primary {
@@ -299,5 +312,27 @@ footer {
   border-radius: 0;
   background-color: #F67633;
   color: #ffffff;
+}
+
+.delivery-address {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.map-wrapper {
+  margin-right: 20px;
+}
+
+.map-wrapper .svg-inline--fa {
+  color: #DD4F05;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-top: 4px;
+}
+
+.address-details {
+  text-align: left;
 }
 /*# sourceMappingURL=main.css.map */
